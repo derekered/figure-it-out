@@ -1,0 +1,10 @@
+{
+  "name": "figure-it-out",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Figure It Out community figure drawing group website",
+  "scripts": {
+    "dev": "npx @11ty/eleventy@2.0.1 --serve",
+    "build": "npx @11ty/eleventy@2.0.1"
+  }
+}

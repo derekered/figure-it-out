@@ -1,0 +1,46 @@
+---
+layout: layouts/base.njk
+title: Home
+---
+
+<section class="hero">
+  <div class="wrapper">
+    <p class="eyebrow">Community figure drawing group</p>
+    <h1>{{ site.name }}</h1>
+    <p class="lede">{{ site.description }}</p>
+    <div class="hero-actions">
+      <a class="button" href="{{ site.signupUrl }}" target="_blank" rel="noreferrer">Get updates</a>
+      <a class="button ghost" href="{{ site.instagramUrl }}" target="_blank" rel="noreferrer">Follow on Instagram</a>
+    </div>
+  </div>
+</section>
+
+<section class="next-event">
+  <div class="wrapper">
+    <h2>Next event</h2>
+    <div class="event-card">
+      <div>
+        <h3>{{ nextEvent.title }}</h3>
+        <p><strong>Date:</strong> {{ nextEvent.date }}</p>
+        <p><strong>Time:</strong> {{ nextEvent.time }}</p>
+        <p><strong>Location:</strong> {{ nextEvent.location }}</p>
+        <p><strong>Cost:</strong> {{ nextEvent.cost }}</p>
+        <p>{{ nextEvent.notes }}</p>
+      </div>
+      <div>
+        <a class="button" href="{{ nextEvent.rsvpUrl }}" target="_blank" rel="noreferrer">RSVP / Sign up</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="about-preview">
+  <div class="wrapper">
+    <h2>About the group</h2>
+    <p>
+      Figure It Out hosts casual, welcoming figure drawing sessions. Whether you are brand new
+      to drawing or have been sketching for years, you are invited to join us.
+    </p>
+    <a class="text-link" href="/about/">Learn more →</a>
+  </div>
+</section>
