@@ -4,7 +4,11 @@
   "private": true,
   "description": "Figure It Out community figure drawing group website",
   "scripts": {
-    "dev": "npx @11ty/eleventy@2.0.1 --serve",
-    "build": "npx @11ty/eleventy@2.0.1"
+    "build": "eleventy",
+    "start": "eleventy --serve",
+    "clean": "rm -rf _site"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^3.1.2"
   }
 }
