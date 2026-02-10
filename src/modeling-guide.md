@@ -5,6 +5,13 @@ permalink: /resources/modeling-guide/index.html
 ---
 # Modeling guide
 
+<figure class="resource-figure float-right">
+  <img src="/assets/images/The_Interior_of_David’s_Studio_at_the_Collège_des_Quatre-Nations,_Paris_.jpg" alt="The Interior of David's Studio at the College des Quatre-Nations, Paris." loading="lazy" />
+  <figcaption>
+    Mathieu Cochereau (1793–1817). The Interior of David's Studio at the College des Quatre-Nations, Paris. Painting, 1814–1817.
+  </figcaption>
+</figure>
+
 Welcome to Figure It Out! This guide is designed to help you prepare for and enjoy your experience as a model at a figure drawing session. Modeling is not only a celebration of the human form but also an empowering act of self-expression. Here’s everything you need to know to have a fantastic experience.
 
 ## Preparation
@@ -38,7 +45,6 @@ If you have specific songs or music that helps you get into the mood, share your
 - Additional props: Feel free to bring any additional props you might want to use, such as fun shoes or other accessories.
 
 ## Typical pose timings
-
 * 2 min
 * 2 min
 * 2 min

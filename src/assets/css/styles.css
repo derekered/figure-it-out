@@ -240,6 +240,18 @@ main {
   font-style: italic;
 }
 
+.page::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.page .resource-figure.float-right {
+  float: right;
+  margin: 0 0 1rem 1.5rem;
+  max-width: 320px;
+}
+
 .video-embed {
   position: relative;
   width: 100%;
@@ -337,6 +349,12 @@ h2 {
 
   .resource-figure {
     justify-self: start;
+    max-width: 320px;
+  }
+
+  .page .resource-figure.float-right {
+    float: none;
+    margin: 0 0 1rem;
     max-width: 320px;
   }
 }
