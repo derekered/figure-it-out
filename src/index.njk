@@ -9,7 +9,7 @@ title: Home
       <h1>Come draw with us.</h1>
       <p class="lede">A queer figure drawing night with no pressure and no judgment. Bring a friend or make a new one here.</p>
       <div class="hero-actions">
-        <a class="button" href="{{ nextEvent.rsvpUrl }}" target="_blank" rel="noreferrer">RSVP</a>
+        <a class="button" href="{{ site.nextEventUrl }}" target="_blank" rel="noreferrer">RSVP</a>
         <a class="button ghost" href="{{ site.signupUrl }}" target="_blank" rel="noreferrer">Get updates</a>
       </div>
     </div>
@@ -23,20 +23,30 @@ title: Home
   <div class="wrapper">
     <h2>Next event</h2>
     <div class="event-card">
-      <h3 class="event-title">{{ nextEvent.title }}</h3>
+      <h3 class="event-title">Figure It Out: Billy</h3>
       <div class="event-card-body">
         <div class="event-details">
-          <p><strong>Date:</strong> {{ nextEvent.date }}</p>
-          <p><strong>Time:</strong> {{ nextEvent.time }}</p>
-          <p><strong>Location:</strong> {{ nextEvent.location }}</p>
-          <p><strong>Cost:</strong> {{ nextEvent.cost }}</p>
+          <p><strong>Date:</strong> 2025-02-08</p>
+          <p><strong>Time:</strong> Mingle at 6pm. Drawing at 7pm.</p>
+          <p><strong>Location:</strong> Vermillion Art Studio, 1501 11th Ave, Seattle, WA 98122</p>
+          <p><strong>Cost:</strong> $15</p>
           <div class="event-notes">
-            {{ nextEvent.content | safe }}
+            <p>People of all skill levels are welcome! Seriously, even if the last thing you drew was a stick figure. This is a supportive, creative environment. Ages 21+.</p>
+            <p>All proceeds donated to Trans Lifeline.</p>
+            <ul>
+              <li>Draw our amazing live model.</li>
+              <li>Enjoy over 2hrs of drawing with a variety of poses: 2min, 5min, 10min, 15min.</li>
+              <li>Connect with a diverse, queer, &amp; inclusive community of artists.</li>
+              <li>Enjoy a fine selection of alcoholic and non-alcoholic drinks.</li>
+              <li>Bring your drawing materials; a pencil and paper is plenty!</li>
+              <li>Share your creations and be featured on our Instagram.</li>
+            </ul>
+            <p>No photos of our model, but photos of the art are encouraged.</p>
           </div>
-          <a class="button" href="{{ nextEvent.rsvpUrl }}" target="_blank" rel="noreferrer">RSVP / Sign up</a>
+          <a class="button" href="{{ site.nextEventUrl }}" target="_blank" rel="noreferrer">RSVP / Sign up</a>
         </div>
         <div class="event-media">
-          <img src="{{ nextEvent.image }}" alt="{{ nextEvent.imageAlt }}" loading="lazy" />
+          <img src="/assets/images/2026-02-06_billy.png" alt="Poster for Figure It Out: Billy featuring a cowboy figure on a lavender background." loading="lazy" />
         </div>
       </div>
     </div>
