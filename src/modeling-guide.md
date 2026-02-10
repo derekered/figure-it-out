@@ -6,7 +6,7 @@ permalink: /resources/modeling-guide/index.html
 # Modeling guide
 
 <figure class="resource-figure float-right">
-  <img src="/assets/images/The_Interior_of_David’s_Studio_at_the_Collège_des_Quatre-Nations,_Paris_.jpg" alt="The Interior of David's Studio at the College des Quatre-Nations, Paris." loading="lazy" />
+  <img src="/assets/images/davids-studio.jpg" alt="The Interior of David's Studio at the College des Quatre-Nations, Paris." loading="lazy" />
   <figcaption>
     Mathieu Cochereau (1793–1817). The Interior of David's Studio at the College des Quatre-Nations, Paris. Painting, 1814–1817.
   </figcaption>
