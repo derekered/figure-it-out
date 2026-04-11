@@ -198,6 +198,113 @@ main {
   gap: 1.5rem;
 }
 
+.artist-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.artist-card {
+  display: block;
+  background: var(--card);
+  border: 2px solid var(--text);
+  border-radius: 1rem;
+  box-shadow: 0.4rem 0.4rem 0 var(--text);
+  overflow: hidden;
+  text-decoration: none;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.artist-card:hover {
+  transform: translate(-2px, -2px);
+  box-shadow: 0.5rem 0.5rem 0 var(--text);
+}
+
+.artist-card img {
+  width: 100%;
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
+  display: block;
+  border-bottom: 2px solid var(--text);
+}
+
+.artist-card-copy {
+  padding: 1.25rem;
+}
+
+.artist-card h2 {
+  margin: 0 0 0.5rem;
+}
+
+.artist-card p {
+  margin: 0;
+  color: var(--muted);
+}
+
+.artist-header {
+  margin-bottom: 2rem;
+}
+
+.artist-header-body {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(260px, 340px);
+  gap: 2rem;
+  align-items: start;
+}
+
+.artist-copy {
+  min-width: 0;
+}
+
+.artist-title {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+.artist-description {
+  color: var(--muted);
+  max-width: 40rem;
+}
+
+.artist-meta,
+.artist-links {
+  margin: 0.75rem 0 0;
+}
+
+.artist-header-content {
+  margin-top: 1rem;
+}
+
+.artist-header-content > :first-child {
+  margin-top: 0;
+}
+
+.artist-header-content > :last-child {
+  margin-bottom: 0;
+}
+
+.artist-header-content p,
+.artist-header-content ul,
+.artist-header-content ol {
+  max-width: 40rem;
+}
+
+.artist-portrait {
+  margin: 0;
+  min-width: 0;
+}
+
+.artist-portrait img {
+  width: min(340px, 100%);
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
+  border-radius: 1.2rem;
+  border: 2px solid var(--text);
+  box-shadow: 0.45rem 0.45rem 0 var(--text);
+  display: block;
+}
+
 .resource-card {
   background: var(--card);
   border: 2px solid var(--text);
@@ -249,6 +356,12 @@ main {
 .page .resource-figure.float-right {
   float: right;
   margin: 0 0 1rem 1.5rem;
+  max-width: 320px;
+}
+
+.page .resource-figure.float-left {
+  float: left;
+  margin: 0 1.5rem 1rem 0;
   max-width: 320px;
 }
 
@@ -351,12 +464,22 @@ h2 {
     grid-template-columns: 1fr;
   }
 
+  .artist-header-body {
+    grid-template-columns: 1fr;
+  }
+
   .resource-figure {
     justify-self: start;
     max-width: 320px;
   }
 
   .page .resource-figure.float-right {
+    float: none;
+    margin: 0 0 1rem;
+    max-width: 320px;
+  }
+
+    .page .resource-figure.float-left {
     float: none;
     margin: 0 0 1rem;
     max-width: 320px;

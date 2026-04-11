@@ -1,0 +1,13 @@
+---
+layout: layouts/base.njk
+---
+
+{% set artistHeaderContent = content | artistHeaderContent %}
+{% set artist = { data: { title: title, description: description, website: website, instagram: instagram, portrait: portrait } } %}
+
+<section class="page artist-page">
+  <div class="wrapper">
+    {% include "partials/artist-header-card.njk" %}
+    {{ content | artistBodyContent | safe }}
+  </div>
+</section>

@@ -1,0 +1,25 @@
+---
+layout: layouts/page.njk
+title: Featured Artists
+permalink: /featured-artists/index.html
+---
+
+# Featured Artists
+
+The Featured Artists program highlights artists whose practices are connected to Figure It Out and gives space for their work, influences, and current projects. This page will grow over time as more artists are added.
+
+{% if collections.featuredArtists.length %}
+  <div class="artist-grid">
+    {% for artist in collections.featuredArtists %}
+      <a class="artist-card" href="{{ artist.url }}">
+        <img src="{{ artist.data.portrait }}" alt="Portrait of {{ artist.data.title }}." loading="lazy" />
+        <div class="artist-card-copy">
+          <h2>{{ artist.data.title }}</h2>
+          <p>{{ artist.data.description }}</p>
+        </div>
+      </a>
+    {% endfor %}
+  </div>
+{% else %}
+  <p class="coming-soon">Featured artist profiles are coming soon.</p>
+{% endif %}

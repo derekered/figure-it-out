@@ -3,11 +3,13 @@ layout: layouts/base.njk
 title: Home
 ---
 
+{% set featuredArtist = collections.featuredArtists[0] %}
+
 <section class="hero">
   <div class="wrapper hero-grid">
     <div class="hero-copy">
       <h1>Come draw with us.</h1>
-      <p class="lede">A queer figure drawing night with no pressure and no judgment. Bring a friend or make a new one here.</p>
+      <p class="lede">A queer figure drawing group in Seattle with no pressure and no judgment. Bring a friend or make a new one here. ☺︎</p>
       <div class="hero-actions">
         <a class="button" href="{{ site.nextEventUrl }}" target="_blank" rel="noreferrer">RSVP</a>
         <a class="button ghost" href="{{ site.signupUrl }}" target="_blank" rel="noreferrer">Get updates</a>
@@ -18,6 +20,18 @@ title: Home
     </div>
   </div>
 </section>
+{% if featuredArtist %}
+  {% set artist = featuredArtist %}
+  {% set artistHeaderContent = featuredArtist.templateContent | artistHeaderContent %}
+  {% set showReadMore = true %}
+  {% set portraitLoading = "lazy" %}
+  <section class="next-event featured-artist-preview" id="featured-artist">
+    <div class="wrapper">
+      <h2>Featured artist</h2>
+      {% include "partials/artist-header-card.njk" %}
+    </div>
+  </section>
+{% endif %}
 <section class="next-event" id="community-book">
   <div class="wrapper">
     <h2>Call for Art: Community Book</h2>

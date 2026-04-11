@@ -1,0 +1,33 @@
+<div class="event-card artist-header">
+  <div class="artist-header-body">
+    <div class="artist-copy">
+      <h3 class="artist-title">{{ artist.data.title }}</h3>
+      {% if artist.data.description %}
+        <p class="artist-description">{{ artist.data.description }}</p>
+      {% endif %}
+      {% if artistHeaderContent %}
+        <div class="artist-header-content">
+          {{ artistHeaderContent | safe }}
+        </div>
+      {% endif %}
+      {% if artist.data.website or artist.data.instagram or showReadMore %}
+        <div class="hero-actions">
+          {% if showReadMore and artist.url %}
+            <a class="button" href="{{ artist.url }}">Read more</a>
+          {% endif %}
+          {% if artist.data.website %}
+            <a class="button ghost" href="{{ artist.data.website }}" target="_blank" rel="noreferrer">Website</a>
+          {% endif %}
+          {% if artist.data.instagram %}
+            <a class="button ghost" href="{{ artist.data.instagram }}" target="_blank" rel="noreferrer">Instagram</a>
+          {% endif %}
+        </div>
+      {% endif %}
+    </div>
+    {% if artist.data.portrait %}
+      <figure class="artist-portrait">
+        <img src="{{ artist.data.portrait }}" alt="Portrait of {{ artist.data.title }}." loading="{% if portraitLoading %}{{ portraitLoading }}{% else %}eager{% endif %}" />
+      </figure>
+    {% endif %}
+  </div>
+</div>
