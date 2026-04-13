@@ -23,9 +23,9 @@ instagram: https://www.instagram.com/fadness.radness/
 
 ## About Leah
 <figure class="resource-figure float-right">
-  <img src="/assets/images/leah-fadness-hell.jpeg" alt="Loki" loading="lazy" />
+  <img src="/assets/images/leah-fadness-hell.jpeg" alt="Ymir’s Parturition" loading="lazy" />
   <figcaption>
-    Hell
+    Ymir’s Parturition
   </figcaption>
 </figure>
 
@@ -40,9 +40,9 @@ It also provides Fadness with a modality to explore the figure through abstracti
 ## Skrimsli (Showing at Vermillion May 7 - 30, 2026)
 
 <figure class="resource-figure float-left">
-  <img src="/assets/images/leah-fadness-raven.jpeg" alt="Raven" loading="lazy" />
+  <img src="/assets/images/leah-fadness-raven.jpeg" alt="Huginn" loading="lazy" />
   <figcaption>
-    Raven
+    Huginn
   </figcaption>
 </figure>
 
@@ -53,9 +53,9 @@ In this series of drawings, Leah Fadness uses characters from Norse mythology to
 This body of work is a collaboration between Fadness and two dancers, [Kyrin Grey](https://www.kyringrey.com) and [Ezra Dickinson](https://ezradickinson.com), who posed for the series.
 <div class="clear"></div>
 <figure class="resource-figure float-right">
-  <img src="/assets/images/leah-fadness-three-figures.jpeg" alt="Three figures" loading="lazy" />
+  <img src="/assets/images/leah-fadness-three-figures.jpeg" alt="Fenrir's Growth" loading="lazy" />
   <figcaption>
-    Three figures
+    Fenrir's Growth
   </figcaption>
 </figure>
 
