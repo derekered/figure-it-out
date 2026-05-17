@@ -12,7 +12,7 @@ instagram: https://www.instagram.com/fadness.radness/
 ---
 
 <!-- artistHeader -->
-**Upcoming Show**: [Scrimsli at Vermillion May 7 - 30, 2026](https://www.fadnessradness.com/skrimsli)
+**Current Show**: [Scrimsli at Vermillion May 7 - 30, 2026](https://www.fadnessradness.com/skrimsli)
 
 **Latest Art Inspiration**: [Jamie Wyeth](https://en.wikipedia.org/wiki/Jamie_Wyeth) & [Auguste Rodin](https://en.wikipedia.org/wiki/Auguste_Rodin)
 

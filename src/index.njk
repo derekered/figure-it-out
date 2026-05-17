@@ -20,18 +20,6 @@ title: Home
     </div>
   </div>
 </section>
-{% if featuredArtist %}
-  {% set artist = featuredArtist %}
-  {% set artistHeaderContent = featuredArtist.templateContent | artistHeaderContent %}
-  {% set showReadMore = true %}
-  {% set portraitLoading = "lazy" %}
-  <section class="next-event featured-artist-preview" id="featured-artist">
-    <div class="wrapper">
-      <h2>Featured artist</h2>
-      {% include "partials/artist-header-card.njk" %}
-    </div>
-  </section>
-{% endif %}
 <section class="next-event" id="next-event">
   <div class="wrapper">
     <h2>Next event</h2>
@@ -47,14 +35,14 @@ title: Home
             Socializing at 6pm. Drawing at 7pm.</p>
           <p>
             <strong>Location:</strong>
-            Vermillion Art Studio, 1501 11th Ave, Seattle, WA 98122</p>
+            Vermillion Art Gallery & Bar, 1501 11th Ave, Seattle, WA 98122</p>
           <p>
             <strong>Cost:</strong>
             $15</p>
           <div class="event-notes">
             <p>People of all skill levels are welcome! Seriously, even if the last thing you drew was a stick figure. This is a
               supportive, creative environment. Ages 21+.</p>
-            <p>All proceeds donated to
+            <p>Net proceeds donated to
               <a href="https://www.lifelong.org"  target="_blank">Lifelong</a>.</p>
             <ul>
               <li>Draw our amazing live model.</li>
@@ -75,3 +63,16 @@ title: Home
     </div>
   </div>
 </section>
+{% if featuredArtist %}
+  {% set artist = featuredArtist %}
+  {% set artistHeaderContent = featuredArtist.templateContent | artistHeaderContent %}
+  {% set showReadMore = true %}
+  {% set portraitLoading = "lazy" %}
+  <section class="next-event featured-artist-preview" id="featured-artist">
+    <div class="wrapper">
+      <h2>Featured artist</h2>
+      {% include "partials/artist-header-card.njk" %}
+    </div>
+  </section>
+{% endif %}
+
