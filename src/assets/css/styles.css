@@ -305,6 +305,30 @@ main {
   display: block;
 }
 
+.page table {
+  clear: both;
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: collapse;
+  margin: 1.5rem 0;
+}
+
+.page th,
+.page td {
+  padding: 0.5rem 0.75rem;
+  text-align: left;
+}
+
+.page th:first-child,
+.page td:first-child {
+  width: 4rem;
+  padding-left: 0;
+}
+
+.page thead {
+  border-bottom: 1px solid var(--border);
+}
+
 .resource-card {
   background: var(--card);
   border: 2px solid var(--text);

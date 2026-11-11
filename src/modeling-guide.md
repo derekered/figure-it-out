@@ -45,22 +45,28 @@ If you have specific songs or music that helps you get into the mood, share your
 - Additional props: Feel free to bring any additional props you might want to use, such as fun shoes or other accessories.
 
 ## Typical pose timings
-* 2 min
-* 2 min
-* 2 min
-* 5 min
-* 5 min
-* 10 min
-* 10 min
-* 15 min
 
-Break, and repeat
+Choose one timing option for the first half of the night and one for the second half, and let the host know your choices; you can also use the same set twice.
+
+| | Option 1 | Option 2 | Option 3 |
+| :--- | :--- | :--- | :--- |
+| | 1 min | 2 min | 1 min |
+| | 1 min | 2 min | 1 min |
+| | 1 min | 2 min | 1 min |
+| | 5 min | 5 min | 5 min |
+| | 5 min | 5 min | 5 min |
+| | 10 min | 10 min | 10 min |
+| | 10 min | 10 min | 10 min |
+| | 20 min | 15 min | 10 min |
+| **Total** | **53 min** | **51 min** | **43 min** |
+
+Break, and repeat. Totals are for one round of poses, excluding breaks.
 
 ## During the event
 
 ### Understanding pose timings
 
-Poses typically last between 2 to 15 minutes, but if you prefer longer or shorter poses, communicate with the host. Holding a pose can be more challenging than it seems, so be mindful of your body and take breaks when needed. There’s usually a break halfway through the session, but don’t hesitate to ask for a break if you need one sooner. The entire session usually lasts about 1.5 to 2 hours, with breaks included.
+Poses typically last between 1 and 20 minutes, but if you prefer longer or shorter poses, communicate with the host. Holding a pose can be more challenging than it seems, so be mindful of your body and take breaks when needed. There’s usually a break halfway through the session, but don’t hesitate to ask for a break if you need one sooner. The entire session usually lasts about 1.5 to 2 hours, with breaks included.
 
 ### Pose variety
 
